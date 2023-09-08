@@ -1,7 +1,8 @@
 HELP.md
 
 !.mvn/wrapper/maven-wrapper.jar
-
+!**/target/*
+!**/src/main/**/target/
 !**/src/test/**/target/
 
 ### STS ###
@@ -31,6 +32,4 @@ build/
 
 ### VS Code ###
 .vscode/
-
 /.gitignore
-*target/*
